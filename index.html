@@ -1,0 +1,253 @@
+<!DOCTYPE HTML>
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico' />
+
+<html>
+	<head>
+
+		<title>Café Fiilis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link href="assets/css/lightbox.css" rel="stylesheet">
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+	<audio autoplay loop id="player" src="assets/mp3/Fragrance_of_Dark_Coffee.mp3"></audio>
+	
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<h1><a href="#banner" style="float:left, clear:right"><img src="images/logomini.png" style="float:left"  />  Café Fiilis</a></h1>
+
+						<button style="float:right" href="javascript:void(0)" class="btn btn-default" data-toggle="tooltip" title="Fiilistelyy" onclick="aud_play_pause()"><i class="fa fa-music"></i>  <i id="stateicon" class="fa fa-pause-circle-o fa-lg"></i></button>
+						
+						<script>
+						  function aud_play_pause() {
+							var myAudio = document.getElementById("player");
+							if (myAudio.paused) {
+							  $('#stateicon').removeClass('fa fa-play-circle-o');
+							  $('#stateicon').addClass('fa fa-pause-circle-o');
+							  myAudio.play();
+							} else {
+							  $('#stateicon').removeClass('fa fa-pause-circle-o');
+							  $('#stateicon').addClass('fa fa-play-circle-o');
+							  myAudio.pause();
+						   }
+						 }</script>
+						
+
+
+					</header>
+
+
+
+				<!-- Banner -->
+					<section id="banner">
+						<div class="inner">
+							<div class="logo"><img src="images/logo.png" /></div>
+							<h2></h2>
+							<p>Idyllinen tunnelma ja täyteläinen kahvi luovat yhdessä mielekkään fiiliksen joka auttaa sinua pysähtymään arjen kiireissä.</p>
+							<a href="#one" class="button">Tutustu</a>
+						</div>
+					</section>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+
+						<!-- One -->
+							<section id="one" class="wrapper style2">
+								<div class="inner">
+									<a class="image"><img id="lu" src="images/kahvi1.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Valikoima</h2>
+										<p>Ensiluokkaiset raaka-aineet yhdessä paahtamisprosessin vahvan osaamisen ja mahdollisimman lyhyen varastointiajan kanssa takaavat gourmet-kahvit, joita Café Fiilis voi ylpeänä esitellä. Paahdamme kahvin pienissä erissä siitä mukaa kun tilauksia tulee.</p>
+										<a href="#four" class="special">Lue lisää</a>
+									</div>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="wrapper alt style3">
+								<div class="inner">
+									<a class="image"><img id="lu" src="images/kahvi4.jpg" alt="" /></a>
+									<div class="content">
+										<h2 class="major">Yhteystiedot</h2>
+										<p>Jäikö kysyttävää? Meihin voit olla aina yhteydessä niin sosiaalisessa mediassa kuin paikanpäällä. Yhteydenotto onnistuu helposti myös yhteydenottolomakkeellamme.</p>
+										<a href="#footer" class="special">Ota yhteyttä</a>
+									</div>
+								</div>
+							</section>
+
+
+						<!-- Four -->
+							<section id="four" class="wrapper style1">
+								<div class="inner">
+									<h2 class="major">Tuotteet</h2>
+									<p>Aito rakkaus ja arvostus hyvää kahvia kohtaan sekä vahva usko henkilökohtaiseen ja sydämelliseen palveluun luotsaavat tätä suomalaista perheyritystä. Seuraamalla kahvia ”pavusta kuppiin”, paahtimoista kahviloihimme, voimme taata korkean laadun ja pitää huolta asiakkaistamme.</p>
+									<section class="features">
+										<article>
+											<a class="image"><img id="lu" src="images/kahvi2.jpg" alt="" /></a>
+											<h3 class="major">Laadulla</h3>
+											<p>Café Fiilis tarjoaa myös talon suodatinkahvia, joka on aromikkaan täyteläinen ja pehmeä, hieman tummempipaahtoinen kahvisekoitus.</p>
+											<a href="#hinnasto" class="special">Hinnasto</a>
+										</article>
+										<article>
+											<a class="image"><img id="lu" src="images/kahvi3.jpg" alt="" /></a>
+											<h3 class="major">Ammattitaidolla</h3>
+											<p>Kahvimme on paahdettu pienissä erissä Slow Roast-menetelmällä maailman laadukkaimmista kahvipavuista.</p>
+											<a href="images/galleria1.jpg" data-lightbox="kahvigalleria" class="special">Galleria</a>
+											<a href="images/galleria2.jpg" data-lightbox="kahvigalleria"></a>
+											<a href="images/galleria3.jpg" data-lightbox="kahvigalleria"></a>
+											<a href="images/galleria4.jpg" data-lightbox="kahvigalleria"></a>
+										</article>
+									</section>
+							<div class="inner" id="hinnasto">
+									<section>
+										<h3 class="major">Hinnasto</h3>
+										<h4>Kahvit</h4>
+										<div class="table-wrapper">
+											<table>
+												<thead>
+													<tr>
+														<th>Nimi</th>
+														<th></th>
+														<th>Hinta</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td>Caffè latte</td>
+														<td>Sisältää omavalintaisen tuplaespresson ja paljon kuumaa maitoa.</td>
+														<td>4.90</td>
+													</tr>
+													<tr>
+														<td>Caffè macchiato</td>
+														<td>Shotti espressoa sekä nokare maitovaahtoa.</td>
+														<td>5.40</td>
+													</tr>
+													<tr>
+														<td>Fiilistely suffe®</td>
+														<td>Café fiiliksen oma blendi. Sensuelli kokemus.</td>
+														<td>5.90</td>
+													</tr>
+													<tr>
+														<td>Caffè mocha</td>
+														<td>Sisältää omavalintaisen tuplaespresson, suklaakastiketta, kuumaa maitoa sekä kermavaahtoa.</td>
+														<td>5.50</td>
+													</tr>
+													<tr>
+														<td>Chai latte</td>
+														<td>Itämaisesti maustettu lämmin trendijuoma suoraan Amerikasta. Kokeile ja ihastu!</td>
+														<td>4.90</td>
+													</tr>
+													<tr>
+														<td>Frappé</td>
+														<td>Espressokahvia, kylmää maitoa, jäämurskaa ja makusiirappia.</td>
+														<td>5.50</td>
+													</tr>
+													<tr>
+														<td>Jäälatte</td>
+														<td>Kylmä latte jääpaloilla.</td>
+														<td>4.90</td>
+													</tr>
+													<tr>
+														<td>Jäämocha</td>
+														<td>Kylmä mocha jääpaloilla</td>
+														<td>5.50</td>
+													</tr>
+													<tr>
+														<td>Jäätee</td>
+														<td>Haudutettua teetä, jääpaloja ja makusiirappia.</td>
+														<td>4.90</td>
+													</tr>
+												</tbody>
+											</table>
+										</div>
+
+								</div>
+									
+									
+								</div>
+							</section>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Ota Yhteyttä</h2>
+							<p>Jäikö kysyttävää? Meihin voit olla aina yhteydessä niin sosiaalisessa mediassa kuin paikanpäällä. Yhteydenotto onnistuu helposti myös yhteydenottolomakkeellamme.</p>
+							<form method="post" action="#">
+								<div class="field">
+									<label for="name">Nimi</label>
+									<input type="text" name="name" id="name" />
+								</div>
+								<div class="field">
+									<label for="email">Sähköposti</label>
+									<input type="email" name="email" id="email" />
+								</div>
+								<div class="field">
+									<label for="message">Viesti</label>
+									<textarea name="message" id="message" rows="4"></textarea>
+								</div>
+								<ul class="actions">
+									<li><input type="submit" value="Lähetä" /></li>
+								</ul>
+							</form>
+							<ul class="contact">
+								<li class="fa-home">
+									Café Fiilis<br />
+									Ratapihantie 13<br />
+									Helsinki, 00520
+								</li>
+								<li class="fa-phone">+358 40 010 0101</li>
+								<li class="fa-envelope"><a>cafe@fiilis.fi</a></li>
+								<li class="fa-twitter"><a href="https://twitter.com/">twitter.com/cafefiilis</a></li>
+								<li class="fa-facebook"><a href="https://www.facebook.com/">facebook.com/cafefiilis</a></li>
+								<li class="fa-instagram"><a href="https://www.instagram.com/">instagram.com/cafefiilis</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Café Fiilis</li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/lightbox.js"></script>
+			
+			
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+			<script>
+				$(document).ready(function(){
+				  $('a[href*=#]').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+					&& location.hostname == this.hostname) {
+					  var $target = $(this.hash);
+					  $target = $target.length && $target
+					  || $('[name=' + this.hash.slice(1) +']');
+					  if ($target.length) {
+						var targetOffset = $target.offset().top;
+						$('html,body')
+						.animate({scrollTop: targetOffset}, 1000);
+					   return false;
+					  }
+					}
+				  });
+				});
+			</script>	
+			
+
+	</body>
+</html>
